@@ -1,0 +1,216 @@
+{
+    "header": {
+        "truck_serial_number": {
+            "question": "What is the truck serial number? ",
+            "response": ""
+        },
+        "truck_model": {
+            "question": "What is the truck model? ",
+            "response": ""
+        },
+        "inspection_id": {
+            "question": "What is the inspection ID?",
+            "response": ""
+        },
+        "inspector_name": {
+            "question": "What is the inspector's name?",
+            "response": ""
+        },
+        "inspection_employee_id": {
+            "question": "What is the inspection employee ID?",
+            "response": ""
+        },
+        "date_time_of_inspection": {
+            "question": "What is the date and time of the inspection?",
+            "response": ""
+        },
+        "location_of_inspection": {
+            "question": "What is the location of the inspection?",
+            "response": ""
+        },
+        "geo_coordinates_of_inspection": {
+            "question": "What are the geo coordinates of the inspection? ",
+            "response": ""
+        },
+        "service_meter_hours": {
+            "question": "What are the service meter hours of Odometer reading?",
+            "response": ""
+        },
+        "inspector_signature": {
+            "question": "Please provide the inspector's signature.",
+            "response": ""
+        },
+        "customer_name_company_name": {
+            "question": "What is the customer's name or company name?",
+            "response": ""
+        },
+        "cat_customer_id": {
+            "question": "What is the CAT customer ID?",
+            "response": ""
+        }
+    },
+    "tires": {
+        "tire_pressure_left_front": {
+            "question": "What is the tire pressure for the left front tire?",
+            "response": ""
+        },
+        "tire_pressure_right_front": {
+            "question": "What is the tire pressure for the right front tire?",
+            "response": ""
+        },
+        "tire_condition_left_front": {
+            "question": "What is the condition of the left front tire? Is it Good or Ok or Needs Replacement?",
+            "response": ""
+        },
+        "tire_condition_right_front": {
+            "question": "What is the condition of the right front tire? Is it Good or Ok or Needs Replacement?",
+            "response": ""
+        },
+        "tire_pressure_left_rear": {
+            "question": "What is the tire pressure for the left rear tire?",
+            "response": ""
+        },
+        "tire_pressure_right_rear": {
+            "question": "What is the tire pressure for the right rear tire?",
+            "response": ""
+        },
+        "tire_condition_left_rear": {
+            "question": "What is the condition of the left rear tire? Is it Good or Ok or Needs Replacement?",
+            "response": ""
+        },
+        "tire_condition_right_rear": {
+            "question": "What is the condition of the right rear tire? Is it Good or Ok or Needs Replacement?",
+            "response": ""
+        },
+        "overall_tire_summary": {
+            "question": "Please provide an overall tire summary.",
+            "response": ""
+        },
+        "tire_images": {
+            "question": "Attach images of each tire in the same order.",
+            "response": ""
+        }
+    },
+    "battery": {
+        "battery_make": {
+            "question": "What is the battery make?",
+            "response": ""
+        },
+        "battery_replacement_date": {
+            "question": "What is the battery replacement date?",
+            "response": ""
+        },
+        "battery_voltage": {
+            "question": "What is the battery voltage?",
+            "response": ""
+        },
+        "battery_water_level": {
+            "question": "What is the battery water level? Is it Good or Ok or Low?",
+            "response": ""
+        },
+        "battery_condition": {
+            "question": "Is there any damage to the battery? (Yes/No). If yes, please attach an image.",
+            "response": ""
+        },
+        "battery_leak_rust": {
+            "question": "Is there any leak or rust in the battery? (Yes/No)",
+            "response": ""
+        },
+        "battery_overall_summary": {
+            "question": "Please provide an overall battery summary (less than 1000 characters).",
+            "response": ""
+        },
+        "battery_images": {
+            "question": "Attach images of the battery.",
+            "response": ""
+        }
+    },
+    "exterior": {
+        "rust_dent_damage": {
+            "question": "Is there any rust, dent, or damage to the exterior? (Yes/No). If yes, please explain in the notes and attach images.",
+            "response": ""
+        },
+        "oil_leak_suspension": {
+            "question": "Is there any oil leak in the suspension? (Yes/No)",
+            "response": ""
+        },
+        "overall_summary": {
+            "question": "Please provide an overall summary (1000 character notes).",
+            "response": ""
+        },
+        "exterior_images": {
+            "question": "Attach images of the exterior.",
+            "response": ""
+        }
+    },
+    "brakes": {
+        "brake_fluid_level": {
+            "question": "What is the brake fluid level? (Good, Ok, Low)",
+            "response": ""
+        },
+        "brake_condition_front": {
+            "question": "What is the condition of the front brakes? (Good, Ok, Needs Replacement)",
+            "response": ""
+        },
+        "brake_condition_rear": {
+            "question": "What is the condition of the rear brakes? (Good, Ok, Needs Replacement)",
+            "response": ""
+        },
+        "emergency_brake": {
+            "question": "What is the condition of the emergency brake? (Good, Ok, Low)",
+            "response": ""
+        },
+        "brake_overall_summary": {
+            "question": "Please provide an overall brake summary (less than 1000 characters).",
+            "response": ""
+        },
+        "brake_images": {
+            "question": "Attach images of the brakes.",
+            "response": ""
+        }
+    },
+    "engine": {
+        "rust_dents_damage_engine": {
+            "question": "Is there any rust, dent, or damage to the engine? (Yes/No). If yes, please explain in the notes and attach images.",
+            "response": ""
+        },
+        "engine_oil_condition": {
+            "question": "What is the condition of the engine oil? (Good/Bad)",
+            "response": ""
+        },
+        "engine_oil_color": {
+            "question": "What is the color of the engine oil? (Clean/Brown/Black etc)",
+            "response": ""
+        },
+        "brake_fluid_condition": {
+            "question": "What is the condition of the brake fluid? (Good/Bad)",
+            "response": ""
+        },
+        "brake_fluid_color": {
+            "question": "What is the color of the brake fluid? (Clean/Brown/Black etc)",
+            "response": ""
+        },
+        "oil_leak_engine": {
+            "question": "Is there any oil leak in the engine? (Yes/No)",
+            "response": ""
+        },
+        "engine_overall_summary": {
+            "question": "Please provide an overall engine summary (less than 1000 characters).",
+            "response": ""
+        },
+        "engine_images": {
+            "question": "Attach images of the engine.",
+            "response": ""
+        }
+    },
+    "voice_of_customer": {
+        "customer_feedback": {
+            "question": "Did the customer provide any feedback?",
+            "response": ""
+        },
+        "issue_images": {
+            "question": "Attach images related to the issues discussed with the customer.",
+            "response": ""
+        }
+    }
+}
