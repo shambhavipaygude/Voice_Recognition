@@ -74,6 +74,12 @@ def recognize_speech(filename, lang_code):
         print(f"Could not request results; {e}")
         return None
 
+def clean_response(response_text, question):
+    # Ensure the response doesn't include the question
+    if response_text.lower().startswith(question.lower()):
+        response_text = response_text[len(question):].strip()
+    return response_text
+
 def ask_questions_from_json(data, lang_code, google_code, json_file):
     translator = Translator()
     question_num = 0
@@ -102,13 +108,16 @@ def ask_questions_from_json(data, lang_code, google_code, json_file):
             response_text = recognize_speech(pcm_response_filename, google_code)
             
             if response_text:
-                content["response"] = response_text
-                print(f"Response recorded: {response_text}")
+                # Clean the response to remove the question part if included
+                cleaned_response = clean_response(response_text, question)
+                content["response"] = cleaned_response
+                print(f"Response recorded: {cleaned_response}")
+                
                 if google_code != 'en':
-                    translated_response = translator.translate(response_text, dest='en').text
+                    translated_response = translator.translate(cleaned_response, dest='en').text
                     print(f"Translated response to English: {translated_response}\n")
                 else:
-                    print(f"Response in English: {response_text}\n")
+                    print(f"Response in English: {cleaned_response}\n")
                 
                 # Update the JSON file with the response
                 with open(json_file, 'w') as file:
